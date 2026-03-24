@@ -4,14 +4,14 @@ import { useSelector, useDispatch } from "react-redux";
 
 import Footer from "./components/Footer";
 
-import Home from "./pages/Home";
-import Cart from "./pages/Cart";
-import Login from "./pages/Login";
+import Home from "./pages/Home.jsx";
+import Cart from "./pages/Cart.jsx";
+import Login from "./pages/Login.jsx";
 
 import { clearCart } from "./features/cart/cartSlice";
 
 import "./App.css";
-import Navbar from "./Components/Navbar";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
 
