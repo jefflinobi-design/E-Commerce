@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import ProductCard from "../Components/ProductCard.jsx";
+import ProductCard from "../components/ProductCard.jsx";
 
 
 const Home = ({ search }) => {
